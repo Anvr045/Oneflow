@@ -279,3 +279,147 @@ p {
 
 
 }
+
+
+.collaborate {
+margin: 120px auto;
+background-color: #D3E8F4;
+max-width: 1170px;
+min-height: 600px;
+border-radius: 8px;
+
+.collaborate__header {
+    margin-bottom: 38px;
+    padding: 32px 96px;
+    border-bottom: 1px solid #94B4C2;
+}
+
+.collaborate__list {
+  display: flex;
+  justify-content: center;
+}
+.collaborate__list__item {
+  margin-right: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collaborate__list__item.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #013A4C;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+.collaborate__list__item:last-child {
+    margin-right: 0;
+}
+.collaborate__text__icon {
+    margin-top: 7px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #013A4C;
+
+}
+
+.collaborate__inner__block {
+    display: flex;
+    justify-content: end;
+   
+}
+.collaborate__left__block {
+    width: 55%;
+}
+
+.collaborate__title {
+    margin-bottom: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    /* identical to box height, or 145% */
+
+    
+    letter-spacing: 0.7px;
+
+    color: #013A4C;
+}
+.collaborate__text {
+    margin-bottom: 55px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    /* or 133% */
+
+
+    color: #013A4C;
+}
+.collaborate__left__item {
+    margin-bottom: 44px;
+}
+
+.collaborate__left__list__item {
+    margin-bottom: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #013A4C;
+}
+.collaborate__left__list__item:last-child {
+    margin-bottom: 0;
+}
+.collaborate__left__list__item::before {
+    content: "";
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: url(img/collaborate/galka.svg) no-repeat #346170 center;
+}
+.collaborate__link {
+padding: 11px 17px;
+text-decoration: none;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+border-radius: 4px;
+border: 1px solid #346170;
+text-align: center;
+
+color: #013A4C;
+}
+
+}
+
+
+.video__block {
+    min-height: 814px;
+    .video {
+        max-width: 100%;
+        width: 100%;
+        min-height: 814px;
+    }
+}
